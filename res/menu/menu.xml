@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.tchealaga.MenuActivity" >
+
+    <item
+        android:id="@+id/item_onde_estou"
+        android:title="Onde Estou?">
+    </item>
+    
+    <item
+        android:id="@+id/item_precptacao"
+        android:title="Consultar Preciptação">
+    </item>
+
+</menu>
