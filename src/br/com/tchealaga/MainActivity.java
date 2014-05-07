@@ -158,7 +158,7 @@ public class MainActivity extends Activity implements LocationListener {
 			
 			LatLng coordinate = new LatLng(lat, lng);
 			CameraPosition cameraPosition = new CameraPosition.Builder()
-			.target(coordinate).zoom(21).build();
+			.target(coordinate).zoom(16).build();
 			googleMap.animateCamera(CameraUpdateFactory
 					.newCameraPosition(cameraPosition));
 

@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 import android.os.Build;
+import br.com.tchealagaWS.WSDataPoa;
 
 public class MenuActivity extends Activity {
 
@@ -48,7 +49,7 @@ public class MenuActivity extends Activity {
 			break;
 		case R.id.item_precptacao:
 			//Toast.makeText(this, "Onde precipatação", Toast.LENGTH_LONG).show();
-			startActivity(new Intent(this, WBDataPoaActivity.class));
+			startActivity(new Intent(this, WSDataPoa.class));
 			break;
 
 		}
